@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #8a2be2, #ff69b4); /* ไล่ระดับสีจากม่วงไปชมพู */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contact-box {
+    background: linear-gradient(135deg, #8a2be2, #ff69b4); /* สีพื้นหลังกล่องเป็นสีขาวแบบโปร่งแสง */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+.contact-box1 {
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 50%;
+}
+h1 {
+    color: #ffffff; /* สีม่วงเข้มสำหรับหัวข้อ */
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+h4 {
+    color: #ffffff; /* สีม่วงเข้มสำหรับหัวข้อ */
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #7b2be2; /* สีพื้นหลังปุ่มเป็นสีม่วงเข้มขึ้น */
+    color: #ffffff; /* สีตัวอักษรเป็นสีขาว */
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-link:hover {
+    background-color: #4b0082; /* สีม่วงที่เข้มกว่าเดิมเมื่อเอาเมาส์ไปชี้ */
+    transform: translateY(-3px);
+}
+
+.icon img {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
